@@ -39,7 +39,7 @@ export default function BirthdayCard({ showCard }) {
             <div className="relative h-full overflow-y-auto p-8 flex flex-col items-center justify-start pt-12" style={{ zIndex: 2 }}>
               {/* Header */}
               <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 animate-colorChange">
-                Happy Birthday My Vida
+                Happy Birthday Teniola
               </h1>
 
               {/* Body Text */}
@@ -77,8 +77,14 @@ export default function BirthdayCard({ showCard }) {
                   I love you wholeheartedly Giggles 🫠🤍
                 </p>
                 
-                <p className="leading-relaxed text-lg">
+                <p className="leading-relaxed text-lg border-b pb-6 ">
                   Happy birthday once again my love😍 🫶
+                </p>
+
+                <div className="bg-gray-400 h-1px w-62" ></div>
+
+                <p className="leading-relaxed text-xm">
+                  With love from Olamide
                 </p>
               </div>
             </div>
